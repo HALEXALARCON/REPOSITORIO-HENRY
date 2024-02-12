@@ -10,20 +10,31 @@
 
 <body> 
     <header>
-        <h1 class="title" id="principal">este es el encabezado de la pagina</h1>
-        <span class="span">HOME</span>
-        <span class="span">FAMILY</span>
-        <span class="span">WEATHER</span>
+        <div id="pulido">
+         <h1 class="title" id="principal">este es el encabezado de la pagina</h1>
+         <h2 class="title">titulo de seccion de noticias</h2>
+        </div>
     </header>
     <main>
-        <img src="broche pintado.png" class="broche"/>
-        <img src="GENGAR.png" class="broche"/>
-        <img src="DRAGONITE.png" class="dragon">
+       
         <section>
-            <h2 class="title">titulo de seccion de noticias</h2>
             <article>
-                <h3 class="title">noticia nº1</h3>
-                <div>
+                <div class="cards">
+                    <H4 class="title">GENGAR</H4>
+                <img src="GENGAR.png" class="fantasma"/>
+                </div>
+                <div class="cards">
+                    <h4 class="title">DRAGONITE</h4>
+                <img src="DRAGONITE.png" class="dragon">
+                </div>
+                <div class="cards">
+                    <H4 class="title">BROCHE</H4>
+                <img src="broche pintado.png" class="broche"/>
+                </div>
+            </article>
+            <article>
+                <h3 class="title" id="palido">noticia nº1</h3>
+                <div id="pulido">
                     <p>parrafo sobre la noticia</p>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus laboriosam illo nisi sed
                         nam minima quidem, eos exercitationem natus maxime reprehenderit libero at eligendi voluptatibus
@@ -32,8 +43,8 @@
             </article>
             <hr>
             <article>
-                <h3 class="title">esta es la noticia nº2</h3>
-                <div>
+                <h3 class="title" id="palido">esta es la noticia nº2</h3>
+                <div id="pulido">
                     <p>este es un listado con numeracion en orden</p>
                     <ol>
                         <li>this is the first item</li>
@@ -44,8 +55,8 @@
             </article>
             <hr>
             <article>
-                <h3 class="title">esta es la noticia nº3</h3>
-                <div>
+                <h3 class="title" id="palido">esta es la noticia nº3</h3>
+                <div id="pulido">
                     <p>este es un listado sin numerar ni orden</p>
                     <ul>
                         <li>this is one element</li>
@@ -56,7 +67,7 @@
             </article>
         </section>
     </main>
-    <footer>este es el footer de esta pagina aqui les dejo el enlace al formulario de contactos
+    <footer id="pulido">este es el footer de esta pagina aqui les dejo el enlace al formulario de contactos
         <a href="contacto.html">formulario de contactos</a>
     </footer>
 </body>
