@@ -7,29 +7,51 @@ div{background-color: blueviolet;}
 footer{background-color: chartreuse;}
 .title{font-size: 2em;
 color: darkblue;}
-#principal{font-size: 3em;
+#principal{font-size: 2.5em;
 color: rgb(66, 93, 93);}
-.broche{width: 15em;
+.broche{width: 10em;
 height: 10em;}
-.dragon{width: 15em;
+.dragon{width: 10em;
 height: 10em;}
-.fantasma{width: 15em;
+.fantasma{width: 10em;
 height: 10em;}
 #pulido{
-    border: 2px solid black;
-    width: 60vw;
+    /* border: 2px solid black; */
+    /* width: 60vw; */
     /* viewport width */
-    margin: auto;
-    padding: 3em;
+    /* margin: auto; */
+    /* padding: 3em; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
-.cards{border: 2px rgb(57, 1, 1) solid;
+.cards{
+    border: 2px rgb(57, 1, 1) solid;
     width: fit-content;
    padding: 0.5em 1em 1em 1em;
    border-radius: 10%;
    transition: 2s;
-   margin: auto;}
+   /* margin: auto; */
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
 .cards:hover{background-color: black;}
- #palido{border: 1px solid rgb(5, 9, 9);
-width: 60vw;
-margin: auto;
-padding-left: 3.1em;}
+ #palido{
+    border: 1px solid rgb(5, 9, 9);
+/* width: 60vw; */
+/* margin: auto; */
+/* padding-left: 3.1em; */
+}
+#cards-container{
+    background-color: rgb(50, 205, 153);
+    width: 85vw;
+    margin: auto;
+    margin-top: 0.5em;
+    border: 2px solid black;
+    border-radius: 3%;
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
